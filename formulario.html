@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+
+    </head>
+
+    <body>
+
+        <h1> <strong>Formulário</strong> </h1>
+
+        <form action="Pagina_destino.html" method="POST">
+
+          <p>  
+            <label>Nome</label>
+            <input type="text" placeholder="Seu nome"/>
+            
+            <label>E-mail</label>
+            <input type="email" placeholder="Seu e-mail" />
+          </p>  
+
+          <p >
+            <label>Telefone para contato</label>
+            <input type="number" placeholder="XX XXXXX-XXXX" />
+          </p>  
+
+          <P>
+            Você conseguiu preencher os três campos anteriores com facilidade?
+
+            <input type="radio" id="preenchido_facilidade" name="Completo_facil">
+            <label for="preenchido_facilidade">Sim</label>
+            
+            <input type="radio" id="Não_preenchido_facilidade" name="Completo_facil">
+            <label for="Não_preenchido_facilidade">Não</label>
+          </P>
+
+          <p>
+
+            Quantas perguntas foram respondidas até o momento?
+
+            <select>    
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+
+
+          </p>
+
+
+
+          <p>
+             Quantas estrelas você daria para este formulário?
+
+            <input type="radio" id="1_estrela" name="satisfação">
+            <label for="1_estrela">1</label>
+            <input type="radio" id="2_estrela" name="satisfação">
+            <label for="2_estrela">2</label>
+            <input type="radio" id="1_estrela" name="satisfação">
+            <label for="3_estrela">3</label>
+            
+          </p>
+
+          <p>
+
+             <input type="checkbox" id="termos">
+             <label for="termos">Autorizo o compatilhamento das minhas respostas com terceiros.</label>
+
+          </p>
+
+        </form>
+
+        <div>
+
+        <input type="submit" value="cadastro">
+        
+        </div>
+
+    </body>
+
+    <foot>Obrigado</foot>
+
+</html>
